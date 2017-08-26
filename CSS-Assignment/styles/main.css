@@ -1,0 +1,139 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, Helvetica,sans-serif;
+    font-size:18px;
+    padding:0px;
+    margin:0 auto;
+    width:960px;
+}
+
+
+.headerdiv {
+    background-color:#a00;
+    border-radius:25px;
+    margin-bottom:25px;
+    padding:5px;
+    text-align:center;
+}
+
+.headerdiv nav a {
+    color:white;
+    display:inline-block;
+    font-size:24px;
+    padding:5px 15px;
+    text-decoration:none;
+}
+
+.headerdiv nav a:hover {
+    text-decoration:underline;
+}
+
+.class2, .class3 {
+    display: block;
+    margin:10px;
+}
+
+.class4 .class5 img {
+    float: left;
+    padding:10px;
+    width:66.666666%;
+}
+
+.class4 .class6 {
+    float: right;
+    padding:10px;
+    width:33.333333%;
+    
+}
+
+
+
+.section-header {
+    border-top: solid 1px #a00;
+    border-bottom: solid 1px #a00;
+}
+
+.section-header h3 {
+    color:#a00;
+    text-align:center;
+
+}
+
+.class7 li {
+    display:inline-block;
+    margin:10px;
+}
+
+section .class8 {
+    border-right:1px solid #a00;
+    float: left;
+    margin-top:10px;
+    width:66.6666%;
+    padding-right: 20px;
+}
+
+.class7, .class8 article, footer  {
+    overflow:hidden;
+}
+
+.class8 article img {
+    float: left;
+    max-width: 50%;
+    padding:10px;
+}
+
+.class8 article {
+    border-bottom: 1px solid #a00;
+}
+
+article a:hover {
+    text-decoration:underline;
+}
+
+h2 a {
+    color:#a00;
+    text-decoration:none;
+}
+
+section {
+    clear: both;
+    margin:10px auto;
+
+}
+
+section aside {
+    width:33.33333%;
+    float:right;
+}
+aside h3 {
+    text-align:center;
+}
+
+.sponsors, .sponser-ads img {
+    width:50%;
+    float: left;
+    padding:10px;
+}
+
+footer {
+    clear:both;
+    padding:20px 0;
+}
+
+footer h3 {
+    
+    float: left;
+    margin:0;
+}
+footer nav {
+    float:right;
+}
+
+footer nav a{
+    color:#a00;
+    padding:0 10px;
+    text-decoration:none;
+}
