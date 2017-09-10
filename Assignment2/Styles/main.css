@@ -1,0 +1,166 @@
+body {
+    font-family:Arial, 'Helvetica', sans-serif;
+    max-width:960px;
+    margin:auto;
+    background-color:darkgrey;
+}
+/**Text Inside Picture**/
+
+.titles{
+    background-image: url("../Images/sky.jpeg");
+    color:white;
+    width: 960px;
+    height:429px;
+    clear: both;
+}
+
+.titles h1 {
+    font-size:350%;
+    margin:0px;
+    padding:50px;
+    text-align: center;
+}
+
+.titles h2 {
+    
+    text-align: center;
+}
+
+.titles li {
+    margin:10px;
+    float: right;
+    
+}
+
+.titles a {
+    color:white;
+    text-decoration:none;
+}
+
+.titles nav{
+    list-style:none;
+}
+
+/**Content of the page to the left**/
+
+article h2, h3 {
+    color:#30396D;
+}
+
+article {
+    background-color:white;
+    float:left;
+    margin:0;
+    padding:15px;
+    width:69%;
+    
+    
+}
+
+/**Quote**/
+
+.quote {
+    border:1px solid grey;
+    color:#000;
+    padding:15px;
+    width:50%;
+    margin:auto;
+}
+
+/**Nav's on the right**/
+
+.categories{
+    border-bottom:2px solid #30396D;
+    padding:15px;
+}
+.categories li {
+    
+    color:#30396D;
+    text-decoration:underline;
+}
+
+.tags {
+    border-bottom:2px solid #30396D;
+    padding:15px;
+    
+}
+
+.tags li {
+    border:1px solid #30396D;
+    color: #30396D;
+    display:inline-block;
+    font-size:75%;
+    margin:3px;
+    padding:3px;
+    
+    
+}
+
+
+.sidebar {
+    background-color:white; 
+    float:right;
+    width:27%;
+    padding:0 0 41px 8.2px;
+   
+}
+
+/**second image**/
+
+.image2{
+    border-bottom:2px solid #30396D;
+    padding:15px;
+    
+}
+
+
+
+.image2 img {
+    width: 100%;
+    border:2px solid #30396D;
+    padding:1px;
+}
+
+
+
+/**Footer**/
+
+footer {
+    clear:both;
+    background-color:#30396D;
+    color:white;
+    padding:15px;
+}
+
+footer h4 {
+    color:white;
+}
+
+footer li {
+    list-style:none;
+    font-size:85%;
+}
+
+footer nav {
+    display:inline-block;
+    margin:20px;
+}
+
+#news li, #events li {
+    height:30px;
+}
+
+#socials li {
+    
+    border:solid 1px white;
+    margin:4px;
+    padding:10px;
+    text-align:center;
+    width:250px;
+}
+
+#socials li a {
+    color:white;
+    text-decoration: none;
+}
+

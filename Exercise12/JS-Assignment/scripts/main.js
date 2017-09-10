@@ -24,33 +24,37 @@ function update() {
     }
 
     //Loop through array
-
+    var errList = document.getElementById("error-list");
     var i = 0;
     for (var i = 0; i < messages.length; i++) {
+        errList.innerHTML = "</ul";
         console.log(messages[i]);
     }
 
 
+
     //Create javascript object for the user
     var user = {
-        firstName: getValue("firstName"),
-        lastName: getValue("lastName"),
-        email: getValue("emailAddress"),
+        firstName: fName,
+        lastName: lName,
+        email: email,
+        fullname2: fName + " " + this.lanename
+            return this.firstname + " " + this.lastname
 
 
 
         //log the user object to the console
-        fullName: function (firstName) {
+        firstName: function (firstName) {
             this.firstName + " " + this.lastName;
         }
     }
     //Check to see if everything is valid
     console.log(user);
     //Create string for today's date. Remember, if you hard code this, it will be invalid tomorrow.
-    var now = new Date(); 
-    console.log(now.toDateString());
+    var today = new Date(); 
+    console.log(today.toDateString());
     //Make the alert box.
-    alert("Submitted on Mon Aug 28, 2017");
+    alert("submitted on" + today.toDateString());
 
     /* ===================
         Your code ends here
