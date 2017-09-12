@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width:500px;
+    margin:20px auto;
+}
+
+  /**username**/
+  #itemId {
+    padding:5px;
+    width:250px;
+  }
+  
+  #email {
+    padding:5px;
+    width:250px;
+  }
+  
+  #pass {
+    padding:5px;
+    width:250px;
+  }
+  
+  #zone {
+    padding:5px;
+    width:250px;
+  }
+  
+  .control-panel {
+    text-align:center;
+  }
+
+li {
+    color: red;
+}
