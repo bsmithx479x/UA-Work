@@ -6,7 +6,17 @@ document.getElementById("btnReset").addEventListener("click", reset);
 function submit() {
 
   var errorList = [];
+  /*
+  var inputs = ['userName', 'emailAddress', 'pass'];
 
+  for(var i = 0; i < inputs.length; i++){
+    var input = document.getElementById(inputs[i]);
+
+    if (input.value === 0){
+      console.log(input.placeholder + " is invalid")
+    }
+  }
+*/
 
   var userName = getElm('userName');
   if (userName.value.length === 0) {
@@ -66,7 +76,7 @@ function reset() {
   getElm('timeZone').value = "";
 }
 
-function reset () {
+function reset() {
   document.getElementById("message").reset();
 }
 
