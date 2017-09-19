@@ -1,0 +1,124 @@
+body {
+    background-color:#e7e7e7;
+    border-radius: 25px;
+    margin: 100px auto;
+    width: 960px;
+    -webkit-box-shadow: 10px 10px 10px 10px #8C8C8C;
+    box-shadow: 10px 10px 10px 10px #8C8C8C;
+}
+
+
+
+
+h1 {
+    border-radius: 25px 25px 0px 0px;
+    background-color: grey;
+    color: #e7e7e7;
+    float: top;
+    margin-top: 0;
+    Padding: 25px;
+    text-align: center;
+    text-shadow: 5px 8px 5px #e7e7e7;
+}
+
+header {
+    border-radius: 25px;
+    background-color:grey;
+}
+
+.post-header p {
+    color:#808080;   
+}
+
+.post-header h3 {
+    text-decoration: underline;
+}
+
+
+
+nav ul {
+    border-bottom: 5px solid #808080;
+    background-color:#e7e7e7;
+    text-align: center;
+    margin:  auto;
+    padding:20px;
+    
+}
+
+nav ul a {
+    
+    color: grey;
+    margin: 30px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    border-radius: 20px;
+    background-color: grey;
+    padding: 10px;
+    text-decoration: underline;
+}
+nav li {
+    display: inline-block;
+    
+}
+article {
+   
+    padding: 5px;
+    float: left;
+    width: 80%;
+}
+
+.author img {
+    float: left;
+    margin-right: 10px;
+}
+aside {
+    float: right;
+    background: #e7e7e7;
+    padding:35px;
+    
+}
+aside a {
+    color: black;
+    text-decoration: none;
+}
+aside ul {
+    list-style: square;
+}
+aside h4 {
+    text-decoration: underline;
+}
+aside a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+footer {
+    border-top: solid grey 10px;
+    background-color: grey;
+    border-radius: 0px 0px 25px 25px;
+    clear: both;
+    padding-top: px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+footer li {
+    margin: 20px;
+    display: inline-block;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #e7e7e7;
+    text-decoration: underline;
+}
+
