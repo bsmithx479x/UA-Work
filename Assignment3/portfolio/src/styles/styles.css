@@ -1,3 +1,4 @@
 .jumbotron {
-    background-color: gray;
- }
+    
+    background-image: url("/images/code.jpg")!important;
+}
