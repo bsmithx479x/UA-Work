@@ -1,4 +1,82 @@
-.jumbotron {
-    
-    background-image: url("/images/code.jpg")!important;
+body {
+    background-color:#9B9B93;
 }
+
+.jumbotron {
+    background-image:url(../images/code.jpg);
+}
+
+.navi li {
+    float:right;
+}
+
+
+.nav a{
+    color: #2D2D2D;
+    margin:5px;
+    padding:5px;
+}
+
+.nav a:hover{
+    background-color:#A0CFD3;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.display-3, .lead {
+    color:white;
+    text-shadow: 6px 4px 5px rgba(0, 0, 0, 1);
+}
+
+.lead {
+    text-decoration:underline;
+}
+
+.about{
+    text-align: center;
+}
+
+/*Center Images*/
+
+.media {
+    padding:50px;
+}
+
+.media img {
+    border-radius: 5px;
+    height: 350px;
+    width:475px;
+    padding:1px;
+    border:1px solid black;
+}
+
+/*IT Readiness pic*/
+.readiness {
+    border-radius: 5px;
+    margin: auto;
+    display:block;
+    width:95%;
+}
+
+/* CSS for Social */
+.social {
+    display: inline-block;
+}
+
+.facebook  {
+    height: 500px;
+    width:475px;
+}
+
+.instagram {
+    float:right;
+    height:450px;
+    padding-right:50px;
+    width:450px;
+}
+
+/*CSS for Music*/
+.music {
+    text-align:center;
+}
+
