@@ -2,10 +2,21 @@ body {
     background-color:#9B9B93;
 }
 
+/*text-shadow in Header Pic*/
+.display-3, .lead {
+    color:white;
+    text-shadow: 6px 4px 5px rgba(0, 0, 0, 1);
+}
+
+.lead {
+    text-decoration:underline;
+}
+
 .jumbotron {
     background-image:url(../images/code.jpg);
 }
 
+/*nav bar*/
 .navi li {
     float:right;
 }
@@ -21,16 +32,11 @@ body {
     background-color:#A0CFD3;
     border-radius: 5px;
     text-decoration: none;
+    cursor: pointer; 
+    
 }
 
-.display-3, .lead {
-    color:white;
-    text-shadow: 6px 4px 5px rgba(0, 0, 0, 1);
-}
 
-.lead {
-    text-decoration:underline;
-}
 
 .about{
     text-align: center;
@@ -58,25 +64,79 @@ body {
     width:95%;
 }
 
+/*CSS for Resume Tab*/
+.resumeDiv {
+    text-align: center;
+}
+
+.resumeDiv h4 {
+    text-decoration: underline;
+}
+.resumeDiv img{
+    border-radius: 5px;
+    border:1px solid black;
+    height: 450px;
+    width: 450px;
+    text-align: center;
+}
+
+
+
+/*resume button*/
+.button1 {
+    border-radius: 5px;
+    border:1px solid black;
+    background-color: grey;
+    color: white;
+}
+
+.button1:hover {
+    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer; 
+}
+
+.button {
+    margin:10px;
+    text-align:center;
+}
+
+
+
+
+
+
+
 /* CSS for Social */
-.social {
+.social li{
     display: inline-block;
+    list-style-type:none;
+    margin:20px;
+    
+    
 }
 
 .facebook  {
-    height: 500px;
-    width:475px;
+    cursor: pointer; 
+    height: 350px;
+    width:425px;
+}
+
+.linkedIn {
+    cursor: pointer; 
+    height: 350px;
+    width:425px
 }
 
 .instagram {
-    float:right;
-    height:450px;
-    padding-right:50px;
-    width:450px;
+    cursor: pointer; 
+    height: 350px;
+    width:425px
 }
 
 /*CSS for Music*/
 .music {
     text-align:center;
 }
+
 
