@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Sweepstakes</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="http://localhost:35729/livereload.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="main-title">
+                <h1>Bioplex</h1>
+                <h2>Fusce a congue nunc. Proin iaculis accumsan mi, eget sodales orci.</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <input type="search" />
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-header">
+            <div class="info">
+                <h1>Blender Sweepstakes</h1>
+                <img src="images/blender.jpg" />
+                <p>
+                    You are about to enter to win a brand new Bioplex SuperMax 1900. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum
+                    imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.
+                    Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                    per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+                </p>
+            </div>
+            <form id="myForm">
+                <section id="message">
+                    <div class="red">
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                </section>
+                <div class="firstName">
+                    <label class="label1" for="userName">First Name</label>
+                    <input class="input1" type="text" id="userName" placeholder="First Name"></input>
+                </div>
+                <br>
+                <div class="lastName">
+                    <label class="label1" for="lastName">Last Name</label>
+                    <input class="input1" type="text" id="lastName" placeholder="Last Name"></input>
+                </div>
+                <br>
+                <div class="email">
+                    <label class="label1" for="email">Email Address</label>
+                    <input class="input1" type="text" id="emailAddress" placeholder="Email Address"></input>
+                </div>
+                <br>
+
+                <br>
+                <div class="dropOptions">
+                    <label class="label1" for="dropOptions">How did you find us?</label>
+
+                    <select class="input1" id="dropOptions">
+                      <option value=""></option>
+                <option value="1">Internet</option>
+                <option value="2">Newspaper</option></option>
+                <option value="3">Advertisement</option>
+                <option value="4">Friend</option>
+                     <br><br></select>
+                </div>
+                <br>
+                <div class="why">
+                    <label class="label1" for="why">Why do you need this blender?</label>
+                    <textarea class="input1" type="text" id="whyDo" placeholder="Why you need this"></textarea>
+                </div>
+                <br>
+
+
+
+                <input type="checkbox" name="mycheck1" id="mycheck1" value="yes"> <label for="mycheck1">By checking this box you accept our terms and conditions</label>
+                <br>
+                <div class="buttons">
+                    <button class="submit" type="button" id="btnSubmit">Submit</button>
+                    <button class="rset" type="button" id="btnRes">Reset</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</body>
+
+</html>
