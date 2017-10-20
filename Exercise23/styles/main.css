@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box
+}
+.row img {
+    padding:10px;
+}
+.row div {
+    border: 2px solid gray;
+}
+.end {
+    display: flex;
+    align-items: flex-end;
+    float: right;
+}
