@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-md-3">
+                <img src="logo.svg" alt="">
+            </div>
+            <div class="col-md-9">
+                <nav class="nav">
+                    <a href="#">Animals</a>
+                    <a href="#">Architecture</a>
+                    <a href="#">Technology</a>
+                    <a href="#">Nature</a>
+                </nav>
+            </div>
+
+        </header>
+        <section class="row">
+            <div class="col">
+                <img src="https://placeimg.com/1200/480/any" alt="" class="img-fluid">
+            </div>
+        </section>
+        <!-- Start Cards -->
+        <div class="row">
+            <!-- Card -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://placeimg.com/640/480/animals" class="img-fluid">
+                    <div class="card-body">
+                        <h4>Animals</h4>
+                        <button type="button" class="btn btn-primary">View Animals</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://placeimg.com/640/480/arch" class="img-fluid">
+                    <div class="card-body">
+                        <h4>Architecture</h4>
+                        <button type="button" class="btn btn-secondary">View Architecture</button>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Card -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://placeimg.com/640/480/tech" class="img-fluid">
+                    <div class="card-body">
+                        <h4>Technology</h4>
+                        <button type="button" class="btn btn-danger">View Technology</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="https://placeimg.com/640/480/nature" class="img-fluid">
+                    <div class="card-body">
+                        <h4>Nature</h4>
+                        <button type="button" class="btn btn-warning">View Nature</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Start Form -->
+        <div class="container-fluid">
+            <form id="needs-validation" novalidate>
+
+                <div class="row">
+                    <div class="form-group">
+                        <label for="validationCustom03">Name</label>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="Your Name" required>
+                        <div class="invalid-feedback">
+                            Please provide a Name.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="validationCustom04">Email</label>
+                        <input type="text" class="form-control" id="validationCustom04" placeholder="Your Email" required>
+                        <div class="invalid-feedback">
+                            Please provide an Email.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="validationCustom05">Message</label>
+                        <input type="text" class="form-control" id="validationCustom05" placeholder="Your Message" required>
+                        <div class="invalid-feedback">
+                            Please provide a Message.
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit" id="btnSubmit">Go Somewhere</button>
+            </form>
+            <div id="thankyou" style="display: none">
+                <h2>Thank You For Reaching Out!</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+        crossorigin = "anonymous" >
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
