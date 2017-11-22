@@ -1,0 +1,42 @@
+/*
+    Q1 - Write a media query for desktop first.  The break point needs to be at 960px;
+*/
+@media only screen and (max-width:960px){
+    .item{
+        background-color:black;
+    }
+}
+
+
+
+
+/*
+    Q2 - Write a media query for mobile first.  The break point needs to be at 720px;
+*/
+@media only screen and (min-width:720px){
+    .item{
+        background-color:blue;
+    }
+}
+
+
+
+/*
+    Q3 - What CSS property are you having the most trouble figuring out?
+*/
+Media Queries
+
+/*
+    Q4 - What is the best CSS property and why?
+*/
+
+
+I'm not exactly sure if there is a "best" property.
+I know there are a lot of important properties.
+
+But if this is my opinion then I would have to say Media Queries.
+Although I am terrible at them, they are very important because
+most websites nowadays are viewed either on a phone or tablet vs. PC's.
+So it's very important to have your website responsive so that it looks proper and modern to all devices.
+
+It is also important that I get better at them..... :(
